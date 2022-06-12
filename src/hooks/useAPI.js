@@ -14,7 +14,7 @@ export const useAPI = (path) => {
         setData(data);
         setLoading(false);
       });
-  }, []);
+  }, [path]);
   return {
     data,
     loading,
